@@ -6,7 +6,8 @@
       .columns.is-mobile
         .column.is-half.is-offset-one-quarter
             h4.title.has-text-centered Platzi Tasks
-            h4.subtitle Hola {{name}} por favor crea una NEW TASK
+            h4.subtitle Bienvenido, ahora crea tu primera TASK!
+
             .column
             .field.has-addons
               p.control
@@ -38,7 +39,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      name: 'Carlos Marsiglia',
+      name: '',
       tasks: [],
       newTask:
         {
